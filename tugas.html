@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daftar Menu Restoran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h3 {
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h3>Daftar Barang</h3>
+    <table>
+        <caption>Tabel Harga Produk</caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Gambar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ayam Bakar</td>
+                <td>20.000</td>
+                <td><img src="ayambakar.jpg" alt="Ayam Bakar"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nasi Goreng</td>
+                <td>14.000</td>
+                <td><img src="nasigoreng.jpg" alt="Nasi Goreng"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Es Teh</td>
+                <td>3.000</td>
+                <td><img src="esteh.jpg" alt="Es Teh"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
